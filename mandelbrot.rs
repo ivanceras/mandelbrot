@@ -69,7 +69,7 @@ fn main(){
 
 fn save_to_file(pixels:Vec<Color>, hxres:usize, hyres:usize){
 
-	let mut file = File::create(&Path::new("man.ppm"));
+	let mut file = File::create(&Path::new("mandelbrot.ppm"));
 	let header = String::from_str(format!("P6\n# CREATOR: lee\n").as_slice());
 	file.write(header.into_bytes().as_slice());
 
