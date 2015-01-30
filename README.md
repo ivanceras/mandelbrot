@@ -1,5 +1,5 @@
 # mandelbrot
-A simple implementation of limited iterative calculation of [![mandrelbot set](http://en.wikipedia.org/wiki/Mandelbrot_set)]
+A simple implementation of limited iterative calculation of mandrelbot set http://en.wikipedia.org/wiki/Mandelbrot_set
 
 ##Build
 
